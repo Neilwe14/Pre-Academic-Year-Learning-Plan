@@ -1,4 +1,0 @@
-#Indoor Voice Code Solution
-input = input("Please enter something:")
-print(input.lowe())
-
