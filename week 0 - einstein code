@@ -1,0 +1,4 @@
+mass = int(input("Please enter mass in kg: "))
+a = 300000000
+energy = mass * a * a
+print(energy)
