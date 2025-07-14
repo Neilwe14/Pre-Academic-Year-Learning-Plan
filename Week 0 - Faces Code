@@ -1,0 +1,11 @@
+def faces(emojis):
+    emojis = emojis.replace(":)", "🙂")
+    emojis = emojis.replace(":(", "🙁")
+    return emojis
+
+def main():
+    text = input ("Enter a text followed by :) or :( : ")
+    results = faces(text)
+    print (results)
+
+main ()
